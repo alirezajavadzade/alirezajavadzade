@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "image": "ito.png",
+        "title": "سایت سازمان فناوری",
+        "company": "شرکت سپانو",
+        "detail": {
+            "description": "توضیحات تکمیلی"
+        }
+    },
+    {
+        "id": 2,
+        "image": "bahayab.png",
+        "title": "سایت سازمان فناوری و اطلاعات کشور",
+        "company": "شرکت سپانو",
+        "detail": {
+            "description": "توضیحات تکمیلی"
+        }
+    },
+    {
+        "id": 3,
+        "image": "mahnazBakhshayeshi.png",
+        "title": "سایت سازمان فناوری",
+        "company": "شرکت سپانو",
+        "detail": {
+            "description": "توضیحات تکمیلی"
+        }
+    },
+    {
+        "id": 4,
+        "image": "ito.png",
+        "title": "سایت سازمان فناوری",
+        "company": "شرکت سپانو",
+        "detail": {
+            "description": "توضیحات تکمیلی"
+        }
+    },
+    {
+        "id": 5,
+        "image": "bahayab.png",
+        "title": "سایت سازمان فناوری و اطلاعات کشور",
+        "company": "شرکت سپانو",
+        "detail": {
+            "description": "توضیحات تکمیلی"
+        }
+    },
+    {
+        "id": 6,
+        "image": "mahnazBakhshayeshi.png",
+        "title": "سایت سازمان فناوری",
+        "company": "شرکت سپانو",
+        "detail": {
+            "description": "توضیحات تکمیلی"
+        }
+    }
+]
