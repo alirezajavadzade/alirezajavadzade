@@ -1,6 +1,10 @@
 <template>
+    <Head>
+        <Meta name="description" :content="`پروژه ی ${projectData.title} اجرا شده توسط علیرضا جوادزاده`">
+        </Meta>
+    </Head>
     <div>
-        <v-container>
+        <v-container v-if="loading == false">
             <v-row>
                 <v-col cols="12" lg="5" class="image-col order-1 order-lg-0">
                     <v-card width="fit-content" class="image-box">
@@ -45,15 +49,26 @@
 
                                 <v-window-item value="two" class="tab-item link-box">
                                     <NuxtLink v-for="(item, i) in projectData.links" :to="item.url" target="blank"
-                                        class="link"> <span ></span>  {{ item.name }} : {{ item.link }}</NuxtLink>
+                                        class="link"> <v-icon :icon="item.icon"></v-icon> {{ item.name }} : {{ item.link
+                                        }}</NuxtLink>
                                 </v-window-item>
 
                                 <v-window-item value="three" class="tab-item">
-                                    Three
+                                    این قسمت به زودی تکمیل میشود
                                 </v-window-item>
                             </v-window>
                         </v-card-text>
                     </v-card>
+                </v-col>
+            </v-row>
+        </v-container>
+
+        <v-container v-else>
+            <v-row>
+                <v-col cols="12">
+                    <div class="loader-box">
+                        <loader />
+                    </div>
                 </v-col>
             </v-row>
         </v-container>
@@ -63,7 +78,8 @@
 <script setup>
 definePageMeta({
     layout: 'default'
-})
+});
+
 
 const items = ref([]);
 const projectData = ref([]);
@@ -108,6 +124,8 @@ const fetchData = async () => {
 onMounted(() => {
     fetchData();
 });
+
+
 </script>
 
 <style scoped>
@@ -132,6 +150,7 @@ onMounted(() => {
 }
 
 .content-box h1 {
+    text-align: right;
     font-weight: normal;
     margin: 1rem 0;
     padding-bottom: 4px;
@@ -148,6 +167,9 @@ onMounted(() => {
 
 .badge-box {
     margin: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
 }
 
 .project-badge {
@@ -175,6 +197,13 @@ onMounted(() => {
     direction: rtl;
 }
 
+@media(max-width:768px) {
+    .tab-title {
+        font-size: 14px;
+        letter-spacing: -2px;
+    }
+}
+
 .tab-title {
     font-size: 17px;
     letter-spacing: -2px;
@@ -190,7 +219,7 @@ onMounted(() => {
     font-size: 15px
 }
 
-.link-box{
+.link-box {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -198,6 +227,17 @@ onMounted(() => {
 
 .link {
     text-decoration: none;
-    padding: 0 0.5rem;
+    padding: 0.5rem;
+    color: #000;
+}
+
+.loader-box {
+    height: 100%;
+    min-height: 90dvh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 </style>

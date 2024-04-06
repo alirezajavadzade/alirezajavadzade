@@ -15,11 +15,10 @@ export default defineNuxtConfig({
     '@nuxt/image',
     (_options, nuxt) => {
       nuxt.hooks.hook('vite:extendConfig', (config) => {
-        // @ts-expect-error
         config.plugins.push(vuetify({ autoImport: true }))
       })
     },
-    //...
+    'nuxt-mdi'
   ],
   image: {
     dir: 'assets/images'
@@ -37,7 +36,7 @@ export default defineNuxtConfig({
       title: 'علیرضا جوادزاده | Alireza javadzade',
       meta: [
         {
-          name: 'description', content: 'پرتفولیو علیرضا جوادزاده'
+          name: 'description', content: 'وب سایت شخصی علیرضا جوادزاده'
         }
       ]
     }

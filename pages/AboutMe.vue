@@ -1,4 +1,8 @@
 <template>
+    <Head>
+        <Meta name="description" content="درباره علیرضا جوادزاده">
+        </Meta>
+    </Head>
     <div class="main-section">
         <v-row>
             <v-col cols="12">

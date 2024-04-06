@@ -70,6 +70,7 @@ body {
     position: fixed;
     right: 0;
     top: 0;
+    direction: rtl;
 }
 
 #sidebar>div {
@@ -83,7 +84,7 @@ body {
 .sidebar-title {
     color: black;
     padding-bottom: 2rem !important;
-    text-align: end;
+    text-align: start;
 }
 
 .sidebar-title h1 {
@@ -95,7 +96,7 @@ body {
     letter-spacing: 1px;
     color: #767676 !important;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 
 .router-link-exact-active {

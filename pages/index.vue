@@ -1,10 +1,14 @@
 <template>
+    <Head>
+        <Meta name="description" content="صفحه اصلی سایت علیرضا جوادزاده">
+        </Meta>
+    </Head>
     <div class="main-section">
         <div class="content-box">
             <img src="~/assets/images/alireza.jpg" class="portfolio-img">
             <div class="info-box">
                 <h1 class="portfolio-title">علیرضا جوادزاده</h1>
-                <span class="portfolio-text">برنامه نویس ، مهندس ارشد سازه</span>
+                <p class="portfolio-text">برنامه نویس ، طراح سایت و اپلیکیشن</p>
                 <div class="icon-box">
                     <NuxtLink to="mailto:“alirezajavadzade76@gmail.com”" target="_blank">
                         <img src="~/assets/images/gmail.svg" class="icon">

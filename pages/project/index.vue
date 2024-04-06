@@ -1,4 +1,8 @@
 <template>
+    <Head>
+        <Meta name="description" content="`پروژه های برنامه نویسی اجرا شده توسط علیرضا جوادزاده`">
+        </Meta>
+    </Head>
     <div class="main-section">
         <v-row>
             <v-col cols="12">
@@ -17,7 +21,7 @@
                         </v-card-title>
 
                         <v-card-subtitle class="card-subtitle">
-                            {{ project.company }}
+                            اجرا شده توسط : {{ project.company }}
                         </v-card-subtitle>
                     </NuxtLink>
                 </v-card>
@@ -39,6 +43,7 @@ import { ref, onMounted } from 'vue';
 definePageMeta({
     layout: 'default'
 });
+
 
 const items = ref([]);
 var loading = ref(false);
