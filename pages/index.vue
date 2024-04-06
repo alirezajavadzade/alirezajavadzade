@@ -13,10 +13,10 @@
                     <NuxtLink to="mailto:“alirezajavadzade76@gmail.com”" target="_blank">
                         <img src="~/assets/images/gmail.svg" class="icon">
                     </NuxtLink>
-                    <NuxtLink to="http://instagram.com/alirezajavadzadee" target="_blank">
+                    <NuxtLink to="https://instagram.com/alirezajavadzadee" target="_blank">
                         <img src="~/assets/images/instagram.svg" alt="" class="icon">
                     </NuxtLink>
-                    <NuxtLink to="www.linkedin.com/in/alireza-javadzade-3a25271a1" target="_blank">
+                    <NuxtLink to="https://www.linkedin.com/in/alireza-javadzade-3a25271a1" target="_blank">
                         <img src="/assets/images/linkedin.svg" class="icon" />
                     </NuxtLink>
                     <NuxtLink to="tel:09123460671" target="_blank">

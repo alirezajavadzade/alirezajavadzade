@@ -38,6 +38,21 @@ export default defineNuxtConfig({
         {
           name: 'description', content: 'وب سایت شخصی علیرضا جوادزاده'
         }
+      ],
+      script: [
+        {
+          src: 'https://www.googletagmanager.com/gtag/js?id=G-D9W94785LH',
+          async: true
+        },
+        {
+          innerHTML: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+    
+            gtag('config', 'G-D9W94785LH');
+          `
+        }
       ]
     }
   }
