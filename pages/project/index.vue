@@ -10,7 +10,7 @@
         <v-row>
             <v-col v-if="loading == false" v-for="(project, i) in items" :key="i" cols="12" sm="6" lg="4" class="my-4">
                 <v-card class="mx-auto a-card" max-width="344" elevation="1">
-                    <NuxtLink :to="`project/${project.id}`" class="card-link">
+                    <NuxtLink :to="`/project/${project.id}`" class="card-link">
                         <v-img height="200px" :src="`/images/${project.image}`" class="card-image"></v-img>
                         <v-card-title class="card-title">
                             {{ project.title }}
