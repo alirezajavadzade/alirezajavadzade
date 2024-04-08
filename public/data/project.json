@@ -78,7 +78,7 @@
         "title": "سایت آموزش خیاطی مهناز بخشایشی",
         "company": "شرکت پارتوکا",
         "slider": "mahnazz-item.jpg",
-        "subtitle": "وب سایت رسمی سازمان فناوری اطلاعات به سفارش شرکت سپانو داده پارس طراحی شده است",
+        "subtitle": "وب سایت آموزش خیاطی مهناز بخشایشی به منظور پخش آنلاین و آفلاین آموزش خیاطی و ایجاد باشگاه مشتریان طراحی و توسعه داده شد",
         "technologis": [
             "html",
             "css",
@@ -101,32 +101,65 @@
             },
             {
                 "name": "سایت اصلی",
-                "link": "متاسفانه لینک موجود نیست",
-                "url": "#",
+                "link": "www.mahnazz.com",
+                "url": "www.mahnazz.com",
                 "icon": "mdi-application-brackets"
             }
         ]
     },
     {
         "id": 4,
-        "image": "fakour.png",
-        "title": "پنل آنلاین دانش آموزان آموزشگاه فکور",
+        "image": "alirezajavadzade.png",
+        "title": "سایت شخصی علیرضا جوادزاده",
+        "company": "",
+        "slider": "alirezajavadzade-item.png",
+        "subtitle": "سایت شخصی علیرضا جوادزاده به منظور معرفی پروژه های انجام شده و رزومه کاری طراحی و پیاده سازی شد",
+        "technologis": [
+            "vue 3",
+            "composition api",
+            "vuetify",
+            "Nuxt",
+            "javascript"
+        ],
+        "description1": "",
+        "description2": "",
+        "description3": "",
+        "description4": "",
+        "extraInfo": "دیتا های نمایش داده شده در این سایت از یک json در داخل پروژه گرفته شده است",
+        "links": [
+            {
+                "name": "گیت هاب",
+                "link": "https://github.com/alirezajavadzade/alirezajavadzade",
+                "url": "https://github.com/alirezajavadzade/alirezajavadzade",
+                "icon": "mdi-github"
+            },
+            {
+                "name": "سایت اصلی",
+                "link": "www.alirezajavadzade.ir",
+                "url": "www.alirezajavadzade.ir",
+                "icon": "mdi-application-brackets"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "image": "bahayabAdmin.png",
+        "title": "پنل ادمین سایت بهایاب",
         "company": "شرکت سپانو",
-        "slider": "fakour-item.png",
-        "subtitle": "وب سایت رسمی سازمان فناوری اطلاعات به سفارش شرکت سپانو داده پارس طراحی شده است",
+        "slider": "",
+        "subtitle": "پنل ادمین بهایاب با هدف بررسی ربات های جستجوگر تغییرات محتوا توسط ادمین ها توسعه داده شد",
         "technologis": [
             "html",
             "css",
-            "javascript",
-            "bootstrap",
-            "jquery",
-            "swiper"
+            "vue 2",
+            "vuetify",
+            "vuex"
         ],
-        "description1": "وب سایت آموزشی خانم مهناز بخشایشی با هدف آموزش آنلاین خیاطی و دسته بندی کاربران و ایجاد باشگاه مشتریان طراحی شد",
-        "description2": "در این سایت بالای 300 ساعت آموزش آنلاین برای کاربران قابل خرید و مشاهده است و کاربران امکان مشاهده آنلاین و دانلود هر قسمت را دارند",
-        "description3": "این سایت شامل صفحات فروشگاه، خرید، لندینگ های اختصاصی هر جشنواره، پروفایل کاربری و پنل ادمین میباشد که توسط من پیاده سازی شده است",
-        "description4": "پیاده سازی این پروژه یک سال زمان برد و با توجه به نیاز کارفرما، قسمت های مختلفی از جمله کیف پول و ... به پروژه اضافه شد",
-        "extraInfo": "بک اند این پروژه با زبان برنامه نویسی C# و معماری MVC پیاده شده است و همچنین این پروژه همراه با دو اپلیکیشن اندروید و آی او اس ارائه شده است",
+        "description1": "",
+        "description2": "",
+        "description3": "",
+        "description4": "",
+        "extraInfo": "بک اند این پروژه با زبان برنامه نویسی C#  پیاده شده است",
         "links": [
             {
                 "name": "گیت هاب",
@@ -136,28 +169,246 @@
             },
             {
                 "name": "سایت اصلی",
-                "link": "متاسفانه لینک موجود نیست",
-                "url": "#",
+                "link": "www.admin.bahayab.com",
+                "url": "www.admin.bahayab.com",
                 "icon": "mdi-application-brackets"
             }
         ]
     },
     {
-        "id": 5,
-        "image": "bahayab.png",
-        "title": "سایت سازمان فناوری و اطلاعات کشور",
+        "id": 6,
+        "image": "ds.png",
+        "title": "دیزاین سیستم شرکت سپانو",
         "company": "شرکت سپانو",
-        "detail": {
-            "description": "توضیحات تکمیلی"
-        }
+        "slider": "ds-item.png",
+        "subtitle": "سیستم طراحی شرکت سپانو با هدف ایجاد فریم ورک مخصوص فرانت اند شرکت طراحی و پیاده سازی شده است",
+        "technologis": [
+            "html",
+            "css",
+            "javascript"
+        ],
+        "description1": "این دیزاین سیستم شامل همه کامپوننت های طراحی وب سمت کاربر میباشد",
+        "description2": "برای توسعه این دیزاین سیستم 6 ماه وقت گذاشته شد و تمامی کد ها html , pure css میباشد",
+        "description3": "طراحان وب سایت میتوانند از این دیزاین سیستم در پروژه های خود استفاده کنند",
+        "description4": "",
+        "extraInfo": "این قسمت به زودی تکمیل خواهد شد",
+        "links": [
+            {
+                "name": "گیت هاب",
+                "link": "متاسفانه لینک موجود نیست",
+                "url": "#",
+                "icon": "mdi-github"
+            },
+            {
+                "name": "سایت اصلی",
+                "link": "www.ds.sepanodata.ir",
+                "url": "www.ds.sepanodata.ir",
+                "icon": "mdi-application-brackets"
+            }
+        ]
     },
     {
-        "id": 6,
-        "image": "mahnazBakhshayeshi.png",
-        "title": "سایت سازمان فناوری",
+        "id": 7,
+        "image": "ds.png",
+        "title": "سایت شرکت سپانو دیتا",
         "company": "شرکت سپانو",
-        "detail": {
-            "description": "توضیحات تکمیلی"
-        }
+        "slider": "sepano-item.png",
+        "subtitle": "سایت شرکت سپانو داده پارس",
+        "technologis": [
+            "html",
+            "css",
+            "bootstrap",
+            "javascript",
+            "owl-carousel"
+        ],
+        "description1": "این سایت به جهت اطلاع رسانی و معرفی شرکت سپانو داده پارس طراحی و پیاده سازی شد",
+        "description2": "",
+        "description3": "",
+        "description4": "",
+        "extraInfo": "بک اند این پروژه با زبان برنامه نویسی C#  پیاده شده است",
+        "links": [
+            {
+                "name": "گیت هاب",
+                "link": "متاسفانه لینک موجود نیست",
+                "url": "#",
+                "icon": "mdi-github"
+            },
+            {
+                "name": "سایت اصلی",
+                "link": "www.sepanodata.ir",
+                "url": "www.sepanodata.ir",
+                "icon": "mdi-application-brackets"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "image": "mahnazz.png",
+        "title": "اپلیکیشن اندروید و وب اپ  مهناز بخشایشی",
+        "company": "شرکت پارتوکا",
+        "slider": "mahnazzApp.png",
+        "subtitle": "اپلیکیشن اندروید و وب اپ آکادمی مهناز بخشایشی به منظور سهولت استفاده کاربران از امکانات سایت و مشاهده ویديو های آموزشی طراحی و پیاده سازی شد",
+        "technologis": [
+            "dart",
+            "flutter",
+            "getX",
+            "provider",
+            "Material"
+        ],
+        "description1": "طراحی این اپلیکیشن با فریم ورک فلاتر انجام شد و از آن خروجی اندروید و (PWA) گرفته شد",
+        "description2": "",
+        "description3": "",
+        "description4": "",
+        "extraInfo": "بک اند این پروژه با زبان برنامه نویسی C#  پیاده شده است",
+        "links": [
+            {
+                "name": "گیت هاب",
+                "link": "متاسفانه لینک موجود نیست",
+                "url": "#",
+                "icon": "mdi-github"
+            },
+            {
+                "name": "سایت اصلی",
+                "link": "www.mahnazz.com/App",
+                "url": "www.mahnazz.com/App",
+                "icon": "mdi-application-brackets"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "image": "pakno.png",
+        "title": "سایت لوازم قنادی پاک نو",
+        "company": "شرکت پارتوکا",
+        "slider": "pakno-item.png",
+        "subtitle": "فروشگاه آنلاین لوازم قنادی پاک نو‍ با هدف فروش آنلاین محصولات آشپزی و شیرینی طراحی و توسعه داده شد",
+        "technologis": [
+            "wordpress",
+            "woo commerce",
+            "elementor",
+            "yoast seo"
+        ],
+        "description1": "برای توسعه این فروشگاه از وردپرس و ووکامرس استفاده شد و قالب این سایت نیز فلت سام میباشد",
+        "description2": "از قابلیت های این فروشگاه سیستم ارسال و کیف پول و مقالات سایت و ... میباشد",
+        "description3": "",
+        "description4": "",
+        "extraInfo": "اطلاعات این قسمت به زودی تکمیل میشود",
+        "links": [
+            {
+                "name": "گیت هاب",
+                "link": "متاسفانه لینک موجود نیست",
+                "url": "#",
+                "icon": "mdi-github"
+            },
+            {
+                "name": "سایت اصلی",
+                "link": "www.pak-no.ir",
+                "url": "www.pak-no.ir",
+                "icon": "mdi-application-brackets"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "image": "erp.png",
+        "title": "پنل و سایت سیستم منابع انسانی",
+        "company": "شرکت سپانو",
+        "slider": "erp-item.png",
+        "subtitle": "این پنل به منظور رسیدگی به امور منابع انسانی شرکت سپانو طراحس و توسعه داده شد",
+        "technologis": [
+            "html",
+            "css",
+            "bootstrap",
+            "javascript",
+            "owl-carousel"
+        ],
+        "description1": "در این پنل اطلاعات اعضا و مدیران شرکت ها وارد شده و تمامی فرآیند های منابع انسانی مانند استخدام، حقوق، بیمه و ... قابل مدیریت میباشد",
+        "description2": "",
+        "description3": "",
+        "description4": "",
+        "extraInfo": "بک اند این پروژه با زبان برنامه نویسی C#  پیاده شده است",
+        "links": [
+            {
+                "name": "گیت هاب",
+                "link": "متاسفانه لینک موجود نیست",
+                "url": "#",
+                "icon": "mdi-github"
+            },
+            {
+                "name": "سایت اصلی",
+                "link": "www.erp.sepanodata.ir",
+                "url": "www.erp.sepanodata.ir",
+                "icon": "mdi-application-brackets"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "image": "teatre84.png",
+        "title": "سایت گروه تئاتر 84",
+        "company": "شرکت سپانو",
+        "slider": "teatre84-item.png",
+        "subtitle": "سایت گروه تئاتر 84 به منظور معرفی و اطلاع رسانی نمایش ها و مجلات طراحی و پیاده سازی شد",
+        "technologis": [
+            "html",
+            "css",
+            "bootstrap",
+            "javascript",
+            "owl-carousel"
+        ],
+        "description1": "",
+        "description2": "",
+        "description3": "",
+        "description4": "",
+        "extraInfo": "بک اند این پروژه با زبان برنامه نویسی C#  پیاده شده است",
+        "links": [
+            {
+                "name": "گیت هاب",
+                "link": "متاسفانه لینک موجود نیست",
+                "url": "#",
+                "icon": "mdi-github"
+            },
+            {
+                "name": "سایت اصلی",
+                "link": "www.teatre84.ir",
+                "url": "www.teatre84.ir",
+                "icon": "mdi-application-brackets"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "image": "fakour.png",
+        "title": "پنل آنلاین دانش آموزان آموزشگاه فکور",
+        "company": "شرکت سپانو",
+        "slider": "fakour-item.png",
+        "subtitle": "پنل دانش آموزان فکور با هدف ایجاد فضای کلاس های آنلاین و آفلاین و تقویم اطلاع رسانی ایجاد شد",
+        "technologis": [
+            "html",
+            "css",
+            "javascript",
+            "bootstrap",
+            "jquery",
+            "swiper"
+        ],
+        "description1": "",
+        "description2": "",
+        "description3": "",
+        "description4": "",
+        "extraInfo": "",
+        "links": [
+            {
+                "name": "گیت هاب",
+                "link": "متاسفانه لینک موجود نیست",
+                "url": "#",
+                "icon": "mdi-github"
+            },
+            {
+                "name": "سایت اصلی",
+                "link": "www.fackor.com",
+                "url": "www.fackor.com",
+                "icon": "mdi-application-brackets"
+            }
+        ]
     }
 ]

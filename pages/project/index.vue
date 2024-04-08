@@ -49,7 +49,6 @@ const items = ref([]);
 var loading = ref(false);
 
 
-
 const fetchData = async () => {
     loading.value = true;
     let retryCount = ref(0);

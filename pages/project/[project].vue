@@ -7,7 +7,8 @@
         <v-container v-if="loading == false">
             <v-row>
                 <v-col cols="12" lg="5" class="image-col order-1 order-lg-0">
-                    <v-card width="fit-content" class="image-box">
+                    <div v-if="projectData.slider == '' "></div>
+                    <v-card v-else width="fit-content" class="image-box">
                         <NuxtLink :to="`/images/${projectData.slider}`" target="blank">
                             <img aspect-ratio="16/9" height="600px" :src="`/images/${projectData.slider}`"
                                 :alt="projectData.title">
