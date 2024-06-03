@@ -1,4 +1,5 @@
 <template>
+
     <Head>
         <Meta name="description" content="`پروژه های برنامه نویسی اجرا شده توسط علیرضا جوادزاده`">
         </Meta>
@@ -12,7 +13,8 @@
             </v-col>
         </v-row>
         <v-row>
-            <v-col v-if="loading == false" v-for="(project, i) in items" :key="i" cols="12" sm="6" lg="4" class="my-4">
+            <v-col v-if="loading == false" v-for="(project, i) in items" :key="i" cols="12" sm="6" lg="4"
+                class="my-4">
                 <v-card class="mx-auto a-card" max-width="344" elevation="1">
                     <NuxtLink :to="`/project/${project.id}`" class="card-link">
                         <v-img height="200px" :src="`/images/${project.image}`" class="card-image"></v-img>
@@ -37,7 +39,7 @@
     </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { ref, onMounted } from 'vue';
 
 definePageMeta({
@@ -47,6 +49,10 @@ definePageMeta({
 
 const items = ref([]);
 var loading = ref(false);
+
+// const { pending, data: projectData } = useFetch('data/project.json', {
+//     lazy: true
+// })
 
 
 const fetchData = async () => {

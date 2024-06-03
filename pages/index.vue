@@ -1,4 +1,5 @@
 <template>
+
     <Head>
         <Meta name="description" content="صفحه اصلی سایت علیرضا جوادزاده">
         </Meta>
@@ -8,7 +9,7 @@
             <img src="~/assets/images/alireza.jpg" class="portfolio-img">
             <div class="info-box">
                 <h1 class="portfolio-title">علیرضا جوادزاده</h1>
-                <p class="portfolio-text">برنامه نویس ، طراح سایت و اپلیکیشن</p>
+                <p class="portfolio-text">برنامه نویس ، توسعه دهنده سایت و اپلیکیشن</p>
                 <div class="icon-box">
                     <NuxtLink to="mailto:“alirezajavadzade76@gmail.com”" target="_blank">
                         <img src="~/assets/images/gmail.svg" class="icon">
@@ -86,6 +87,11 @@ definePageMeta({
 .portfolio-title {
     font-size: 48px;
     font-weight: bold;
+}
+
+
+.portfolio-text {
+    color: #767676;
     overflow: hidden;
     white-space: nowrap;
     border-left: 2px solid;
@@ -115,10 +121,6 @@ definePageMeta({
     100% {
         border-color: transparent
     }
-}
-
-.portfolio-text {
-    color: #767676;
 }
 
 .icon-box {
