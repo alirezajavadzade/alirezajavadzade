@@ -9,7 +9,7 @@
             <img src="~/assets/images/alireza.jpg" class="portfolio-img">
             <div class="info-box">
                 <h1 class="portfolio-title">علیرضا جوادزاده</h1>
-                <p class="portfolio-text">برنامه نویس ، توسعه دهنده سایت و اپلیکیشن</p>
+                <p class="portfolio-text">کارشناس سازه، توسعه دهنده سایت و اپلیکیشن</p>
                 <div class="icon-box">
                     <NuxtLink to="mailto:“alirezajavadzade76@gmail.com”" target="_blank">
                         <img src="~/assets/images/gmail.svg" class="icon">
