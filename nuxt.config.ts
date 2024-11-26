@@ -2,15 +2,18 @@
 import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify'
 export default defineNuxtConfig({
   css: ['~/assets/css/main.css', 'vuetify/styles'],
+
   build: {
     transpile: ['vuetify'],
   },
+
   components: [
     {
       path: '~/components',
       pathPrefix: false,
     },
   ],
+
   modules: [
     '@nuxt/image',
     (_options, nuxt) => {
@@ -20,9 +23,11 @@ export default defineNuxtConfig({
     },
     'nuxt-mdi'
   ],
+
   image: {
     dir: 'assets/images'
   },
+
   vite: {
     vue: {
       template: {
@@ -30,7 +35,9 @@ export default defineNuxtConfig({
       },
     },
   },
+
   devtools: { enabled: true },
+
   app: {
     head: {
       title: 'علیرضا جوادزاده | Alireza javadzade',
@@ -55,5 +62,7 @@ export default defineNuxtConfig({
         }
       ]
     }
-  }
+  },
+
+  compatibilityDate: '2024-10-23'
 })

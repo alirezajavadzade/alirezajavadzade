@@ -43,6 +43,7 @@ watch(group, () => {
 <style scoped>
 body {
     font-family: "YekanBakhFaNum" !important;
+    direction: rtl;
 }
 
 .main {
