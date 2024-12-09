@@ -1,9 +1,4 @@
 <template>
-
-    <Head>
-        <Meta name="description" content="`پروژه های برنامه نویسی اجرا شده توسط علیرضا جوادزاده`">
-        </Meta>
-    </Head>
     <div class="main-section">
         <v-row>
             <v-col cols="12">
@@ -13,10 +8,9 @@
             </v-col>
         </v-row>
         <v-row>
-            <v-col v-if="loading == false" v-for="(project, i) in items" :key="i" cols="12" sm="6" lg="4"
-                class="my-4">
+            <v-col v-if="loading == false" v-for="(project, i) in items" :key="i" cols="12" sm="6" lg="4" class="my-4">
                 <v-card class="mx-auto a-card" max-width="344" elevation="1">
-                    <NuxtLink :to="`/project/${project.id}`" class="card-link">
+                    <NuxtLink :to="`/project/${project.page}`" class="card-link">
                         <v-img height="200px" :src="`/images/${project.image}`" class="card-image"></v-img>
                         <v-card-title class="card-title">
                             {{ project.title }}
@@ -46,14 +40,17 @@ definePageMeta({
     layout: 'default'
 });
 
+useHead({
+    title: 'علیرضا جوادزاده | پروژه های it ',
+    meta: [
+        { name: 'title', content: 'پروژه‌های علیرضا جوادزاده | مهندس عمران، برنامه‌نویس و طراح سایت' },
+        { name: 'description', content: 'آشنایی با پروژه‌های متنوع علیرضا جوادزاده، مهندس عمران و برنامه‌نویس متخصص در طراحی سایت و اپلیکیشن‌های اندروید و iOS، سئو و فریم‌ورک‌های مدرن.' },
+    ],
+})
+
 
 const items = ref([]);
 var loading = ref(false);
-
-// const { pending, data: projectData } = useFetch('data/project.json', {
-//     lazy: true
-// })
-
 
 const fetchData = async () => {
     loading.value = true;
@@ -76,7 +73,8 @@ const fetchData = async () => {
     } catch (error) {
         if (retryCount < maxRetries) {
             retryCount.value++;
-            setTimeout(FakeData, 5000);
+            // setTimeout(FakeData, 5000);
+            console.log('fake data')
         } else {
             console.log('Request failed');
         }

@@ -1,9 +1,4 @@
 <template>
-
-    <Head>
-        <Meta name="description" content="صفحه اصلی سایت علیرضا جوادزاده">
-        </Meta>
-    </Head>
     <div class="main-section">
         <div class="content-box">
             <img src="~/assets/images/alireza.jpg" class="portfolio-img">
@@ -36,6 +31,14 @@
 definePageMeta({
     layout: 'default'
 });
+
+useHead({
+    title: 'علیرضا جوادزاده | صفحه اصلی',
+    meta: [
+        { name: 'title', content: 'علیرضا جوادزاده | مهندس عمران و برنامه نویس متخصص در سازه و IT' },
+        { name: 'description', content: 'با علیرضا جوادزاده آشنا شوید، مهندس عمران و متخصص سازه با ترکیب مهارت‌های برنامه‌نویسی و فناوری اطلاعات. پروژه‌های حرفه‌ای و نوآوری در دنیای مهندسی.' },
+    ],
+})
 
 
 </script>

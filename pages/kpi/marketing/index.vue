@@ -49,12 +49,12 @@ definePageMeta({
 });
 
 const marketingList = ref([
-    {
-        name: "CPL",
-        description: "ارزش طول عمر مشتری",
-        route: "cpl",
-        icon: icon7,
-    },
+    // {
+    //     name: "CPL",
+    //     description: "ارزش طول عمر مشتری",
+    //     route: "cpl",
+    //     icon: icon7,
+    // },
     {
         name: "CPA",
         description: "میانگین درآمد هر مشتری",

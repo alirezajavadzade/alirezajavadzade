@@ -7,7 +7,7 @@
         <v-container v-if="loading == false">
             <v-row>
                 <v-col cols="12" lg="5" class="image-col order-1 order-lg-0">
-                    <div v-if="projectData.slider == '' "></div>
+                    <div v-if="projectData.slider == ''"></div>
                     <v-card v-else width="fit-content" class="image-box">
                         <NuxtLink :to="`/images/${projectData.slider}`" target="blank">
                             <img aspect-ratio="16/9" height="600px" :src="`/images/${projectData.slider}`"
@@ -78,7 +78,15 @@
 
 <script setup>
 definePageMeta({
-    layout: 'default'
+    layout: 'default',
+    // title: projectData.value?.title || 'پروژه',
+    // meta: [
+    //     { name: 'description', content: projectData.value?.meta - description || 'پروژه اجرا شده توسط علیرضا جوادزاده' },
+    //     { property: 'og:title', content: projectData.value?.meta - title || 'پروژه' },
+    //     { property: 'og:description', content: projectData.value?.meta - description || 'پروژه اجرا شده توسط علیرضا جوادزاده' },
+    //     { property: 'og:image', content: `/images/${projectData.value?.slider}` || '/default-image.jpg' },
+    //     { property: 'og:type', content: 'website' }
+    // ]
 });
 
 
@@ -103,7 +111,7 @@ const fetchData = async () => {
             items.value = [];
             const response = await fetch('/data/project.json', { signal });
             items.value = await response.json();
-            let filteredProject = items.value.find(project => project.id == route.params.project);
+            let filteredProject = items.value.find(project => project.page == route.params.project);
             projectData.value = filteredProject;
             retryCount.value = 0;
             loading.value = false;

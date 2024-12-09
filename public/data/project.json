@@ -1,8 +1,11 @@
 [
     {
         "id": 1,
+        "page": "ito-project",
         "image": "ito.png",
         "title": "سایت سازمان فناوری اطلاعات ایران",
+        "metaTitle": "طراحی وب‌سایت سازمان فناوری توسط علیرضا جوادزاده - تجربه‌ای حرفه‌ای و خلاقانه",
+        "metaDescription": "بررسی پروژه طراحی وب‌سایت سازمان فناوری توسط علیرضا جوادزاده: توسعه‌ای مدرن و خلاقانه با تمرکز بر تجربه کاربری، طراحی حرفه‌ای و عملکرد بهینه.",
         "company": "شرکت سپانو",
         "slider": "ito-item.png",
         "subtitle": "وب سایت رسمی سازمان فناوری اطلاعات ایران با هدف اطلاع رسانی اخبار و خدمات خود طراحی و پیاده سازی شد",
@@ -36,6 +39,7 @@
     },
     {
         "id": 2,
+        "page": "bahayab-project",
         "image": "bahayab.png",
         "title": "سایت جستجوگر قیمت بهایاب",
         "company": "شرکت سپانو",
@@ -74,6 +78,7 @@
     },
     {
         "id": 3,
+        "page": "mahnazz-project",
         "image": "mahnazz.png",
         "title": "سایت آموزش خیاطی مهناز بخشایشی",
         "company": "شرکت پارتوکا",
@@ -109,6 +114,7 @@
     },
     {
         "id": 4,
+        "page": "alirezajavadzade-project",
         "image": "alirezajavadzade.png",
         "title": "سایت شخصی علیرضا جوادزاده",
         "company": "",
@@ -143,6 +149,7 @@
     },
     {
         "id": 5,
+        "page": "bahayab-admin-project",
         "image": "bahayabAdmin.png",
         "title": "پنل ادمین سایت بهایاب",
         "company": "شرکت سپانو",
@@ -177,6 +184,7 @@
     },
     {
         "id": 6,
+        "page": "sepano-ds-project",
         "image": "ds.png",
         "title": "دیزاین سیستم شرکت سپانو",
         "company": "شرکت سپانو",
@@ -209,6 +217,7 @@
     },
     {
         "id": 7,
+        "page": "sepano-project",
         "image": "ds.png",
         "title": "سایت شرکت سپانو دیتا",
         "company": "شرکت سپانو",
@@ -243,6 +252,7 @@
     },
     {
         "id": 8,
+        "page": "mahnazz-app-project",
         "image": "mahnazz.png",
         "title": "اپلیکیشن اندروید و وب اپ  مهناز بخشایشی",
         "company": "شرکت پارتوکا",
@@ -277,6 +287,7 @@
     },
     {
         "id": 9,
+        "page": "pakno-project",
         "image": "pakno.png",
         "title": "سایت لوازم قنادی پاک نو",
         "company": "شرکت پارتوکا",
@@ -310,6 +321,7 @@
     },
     {
         "id": 10,
+        "page": "sepano-erp-project",
         "image": "erp.png",
         "title": "پنل و سایت سیستم منابع انسانی",
         "company": "شرکت سپانو",
@@ -344,6 +356,7 @@
     },
     {
         "id": 11,
+        "page": "teatre84-project",
         "image": "teatre84.png",
         "title": "سایت گروه تئاتر 84",
         "company": "شرکت سپانو",
@@ -378,6 +391,7 @@
     },
     {
         "id": 12,
+        "page": "fakour-project",
         "image": "fakour.png",
         "title": "پنل آنلاین دانش آموزان آموزشگاه فکور",
         "company": "شرکت سپانو",

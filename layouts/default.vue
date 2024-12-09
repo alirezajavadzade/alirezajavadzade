@@ -52,6 +52,7 @@ const items = [
     { router: '/project', text: 'پروژه های من' },
     { router: '/MyEducation', text: 'تحصیلات من' },
     { router: '/AboutMe', text: 'درباره من' },
+    { router: '/kpi', text: 'KPI' },
 ];
 watch(group, () => {
     drawer.value = false;

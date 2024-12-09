@@ -40,11 +40,12 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: 'علیرضا جوادزاده | Alireza javadzade',
-      meta: [
-        {
-          name: 'description', content: 'وب سایت شخصی علیرضا جوادزاده'
-        }
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '~/public/favicon.ico' },
+        { rel: 'apple-touch-icon', sizes: '180x180', href: '~/public/apple-touch-icon.png' },
+        { rel: 'icon', type: 'image/png', sizes: '32x32', href: '~/public/favicon-32x32.png' },
+        { rel: 'icon', type: 'image/png', sizes: '16x16', href: '~/public/favicon-16x16.png' },
+        { rel: 'manifest', href: '~/public/site.webmanifest' }
       ],
       script: [
         {
@@ -59,8 +60,18 @@ export default defineNuxtConfig({
     
             gtag('config', 'G-D9W94785LH');
           `
+        },
+        {
+          innerHTML: `
+            (function(c,l,a,r,i,t,y){
+                c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+                y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+            })(window, document, "clarity", "script", "pbb85x9fnm");
+          `,
+          type: 'text/javascript'
         }
-      ]
+      ],
     }
   },
 
